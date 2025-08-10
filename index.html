@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>XR Casino Help Manager</title>
+<style>
+  /* Reset and base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    letter-spacing: 2px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 320px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  ul li {
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+  }
+
+  ul li:last-child {
+    border-bottom: none;
+  }
+
+  ul li a {
+    display: block;
+    padding: 16px 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 0 16px 16px 0;
+  }
+
+  ul li a:hover,
+  ul li a:focus {
+    background: rgba(255, 255, 255, 0.3);
+    color: #0a1f44;
+    transform: translateX(8px);
+    box-shadow: 2px 2px 8px rgba(255,255,255,0.4);
+    outline: none;
+  }
+
+  @media (max-width: 400px) {
+    ul {
+      width: 90vw;
+    }
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>XR Casino Help Manager</h1>
+  <ul>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="registro.html">Registro</a></li>
+    <li><a href="fund.html">Buy funds</a></li>
+    <li><a href="casino_bonusses.html">XR - Bonusses</a></li>
+    <li><a href="errors.html">Customers errors list</a></li>
+    <li><a href="blackjack.html">How to play blackjack</a></li>
+    <li><a href="roulette.html">How to play roulette</a></li>
+    <li><a href="slots.html">How to play slots</a></li>
+    <li><a href="crashgame.html">How to play crash game</a></li>
+  </ul>
+</body>
+</html>
